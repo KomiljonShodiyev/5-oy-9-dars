@@ -1,0 +1,19 @@
+.phone-wrapper {
+  width: 360px; 
+  height: 640px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 16px solid #000;
+  border-radius: 36px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-inner {
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  overflow-y: auto; 
+}
